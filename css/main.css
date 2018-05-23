@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+/*=========== [1] Navigation ==========  */
+nav {
+  height: 200px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  background-color: #77bbed;
+  padding:15px 30px;
+  margin-left: 10px;
+  border-radius: 100px;
+}
+
+.nav-list {
+  text-decoration: none;
+  color: #fff;
+  font-size:18px;
+}
+
+/*====Navigation - List - Hover=====  */
+li:hover {
+  background-color: #1d99f4;
+  border: 2px dotted #351df4;
+  transition: 0.2s;
+  box-shadow: 0 5px 20px #638190;
+}
+
+.nav-list:hover {
+  color: #f5747c;
+}
+
+/* ========= Button Section ========= */
+.btn-sec {
+  text-align: center;
+}
+
+button {
+ border: none;
+ font-size: 18px;
+}
+
+.btn-one {
+  padding: 10px 40px;
+  background-color: #72db69;
+}
+
+.btn-two {
+  padding: 15px 60px;
+  background-color: #91eee6;
+}
+
+.btn-three {
+  padding: 25px 80px;
+  background-color: #df9ff9;
+}
+
+/* =====Button - hover===== */
+.btn-one:hover {
+  background-color: #41b138;
+  color: #fff;
+  transform: translateY(10px);
+  transition-duration: 0.5s;
+}
+
+.btn-two:hover {
+  background-color: #17f5e2;
+  color: #fff;
+  transform: translateY(-20px);
+  transition-duration: 0.5s;
+}
+
+.btn-three:hover {
+  background-color: #bb26f7;
+  color: #fff;
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
